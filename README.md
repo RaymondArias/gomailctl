@@ -1,0 +1,2 @@
+# gomailctl
+simple email client
