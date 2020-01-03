@@ -14,7 +14,7 @@ EOF
 )
 
 
-go run main.go -s smtpserver:25 --from me@myself.com -recipient rarias2010@yahoo.com -username user --password supersecret -c "$mime"
+go run main.go -s smtpserver:25 --from me@myself.com --recipient you@yourself.com -username user --password supersecret -c "$mime"
 ```
 
 ## Todo
